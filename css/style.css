@@ -37,7 +37,20 @@
     --color-green-4:#DCFCE7;    
 }
 /* <<<<<<<< Root === Variable >>>>>>>> */
+
+/* <<<<<<<< Style Body >>>>>>>> */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-regular);
+    font-size: 1rem;
+    font-weight: bold;
+}
+/* <<<<<<<< Style Body >>>>>>>> */
 /* <<<<<<<<>>>>>>>> */
+/* <<<<<<<<>>>>>>>> */
+
+
 /* <<<<<<<<>>>>>>>> */
 /* <<<<<<<<>>>>>>>> */
 /* <<<<<<<<>>>>>>>> */

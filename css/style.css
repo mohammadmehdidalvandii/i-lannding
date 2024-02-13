@@ -198,6 +198,41 @@ display: block;
     width: 100%;
 }
 /* <<<<<<<< Style Navbar >>>>>>>> */
-/* <<<<<<<<>>>>>>>> */
-/* <<<<<<<<>>>>>>>> */
+
+/* <<<<<<<< Section Introduction >>>>>>>> */
+.intro{
+    display: block;
+    width: 100%;
+    background-color: var(--color-bg);
+}
+.intro_content{
+display: block;
+margin-top: 7rem;
+}
+.intro_content_title{
+display: block;
+font-family: var(--font-Black);
+font-size:4rem;
+}
+.intro_content_title span{
+    font-family: var(--font-Black);
+font-size: 4rem;
+color: var(--color-green-1);
+}
+.intro_content_desc{
+    display: block;
+    font-size: 1rem;
+    margin-top: 2rem;
+    color: var(--color-text-2);
+}
+.intro_content_contact{
+    margin-top: 2rem;
+}
+.intro_img{
+    display: block;
+    padding-top: 2rem;
+    margin: 0 auto;
+    width: 300px;
+}
+/* <<<<<<<< Section Introduction >>>>>>>> */
 /* <<<<<<<<>>>>>>>> */

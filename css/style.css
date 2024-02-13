@@ -78,6 +78,29 @@ body{
 }
 /* <<<<<<<< Button border blue  >>>>>>>> */
 
+/* <<<<<<<< Title-Right  >>>>>>>> */
+.title_right{
+    display: block;
+}
+.title_right_text{
+ font-size: 1.1rem;
+ font-weight: bold;
+ color: var(--color-text-2);
+}
+.title_right_title{
+    display: block;
+    margin-block: 0.7rem ;
+    font-family: var(--font-Black);
+    font-size: 2.2rem;
+}
+.title_right_desc{
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    color: var(--color-text-2);
+    line-height: 1.6;
+}
+/* <<<<<<<< Title-Right  >>>>>>>> */
+
 
 /* <<<<<<<< Style Navbar >>>>>>>> */
 .navBar{
@@ -262,5 +285,8 @@ color: var(--color-green-1);
     margin-bottom: 1rem;
 }
 /* <<<<<<<< Section Trusted >>>>>>>> */
+
+/* <<<<<<<< Section Product Features >>>>>>>> */
+/* <<<<<<<< Section Product Features >>>>>>>> */
 /* <<<<<<<<>>>>>>>> */
 /* <<<<<<<<>>>>>>>> */

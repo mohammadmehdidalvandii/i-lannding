@@ -354,5 +354,40 @@ color: var(--color-green-1);
     margin-top: 1rem;
 }
 /* <<<<<<<< Section Product Features >>>>>>>> */
+
+/* <<<<<<<< Section  Features >>>>>>>> */
+.features_item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.features_item_icon{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+    width: 4rem;
+    height: 4rem;
+ background-color: var(--color-text-2);
+ border-radius: 0.5rem;
+ margin-left: 0.5rem;
+}
+.features_item_icon i{
+    font-size: 1.3rem;    
+    color: var(--color-bg);
+}
+.features_item_content{
+    display: block;
+}
+.features_item_title{
+    font-family: var(--font-bold);
+    font-size: 1.3rem;
+    color: var(--color-text-1);
+}
+.features_item_desc{
+    font-size: 0.9rem;
+    color: var(--color-text-2);
+}
+
+/* <<<<<<<< Section  Features >>>>>>>> */
 /* <<<<<<<<>>>>>>>> */
 /* <<<<<<<<>>>>>>>> */

@@ -1,145 +1,512 @@
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="/Bootstrap/bootstrap.rtl.min.css">
-    <link rel="stylesheet" href="/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/Bootstrap/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>I-LANDING</title>
-</head>
-<body>
-        <!-- <<<<<<<< Section Navbar >>>>>>>> -->
-        <nav>
-            <section class="navBar d-lg-block d-none ">
-                <div class="containers">
-                    <div class="navbar_wrapper">
-                        <div class="navbar_right">
-                            <a href="#" class="navbar_link_logo">
-                                <img src="/assets/svg/logo.svg" alt="logo image" class="navbar_img">
-                                <img src="/assets/svg/logoText.svg" alt="logo text" class="navbar_img">
-                            </a>
-                            <ul class="navbar_items_menu">
-                                <li class="navbar_item_menu">
-                                    <a href="#" class="navbar_item_menuLink">خانه</a>
-                                </li>
-                                <li class="navbar_item_menu">
-                                    <a href="#" class="navbar_item_menuLink">امکانات</a>
-                                </li>
-                                <li class="navbar_item_menu">
-                                    <a href="#" class="navbar_item_menuLink">قیمت گذاری</a>
-                                </li>
-                                <li class="navbar_item_menu">
-                                    <a href="#" class="navbar_item_menuLink">درباره ما</a>
-                                </li>
-                                <li class="navbar_item_menu">
-                                    <a href="#" class="navbar_item_menuLink">تماس با ما</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="navbar_left">
-                            <a href="#" class="navbar_link_contact button_br_blue">تماس با ما</a>
-                        </div>
-                    </div>
+  </head>
+  <body>
+    <!-- <<<<<<<< Section Navbar >>>>>>>> -->
+    <nav>
+      <section class="navBar d-lg-block d-none">
+        <div class="containers">
+          <div class="navbar_wrapper">
+            <div class="navbar_right">
+              <a href="#" class="navbar_link_logo">
+                <img
+                  src="/assets/svg/logo.svg"
+                  alt="logo image"
+                  class="navbar_img"
+                />
+                <img
+                  src="/assets/svg/logoText.svg"
+                  alt="logo text"
+                  class="navbar_img"
+                />
+              </a>
+              <ul class="navbar_items_menu">
+                <li class="navbar_item_menu">
+                  <a href="#" class="navbar_item_menuLink">خانه</a>
+                </li>
+                <li class="navbar_item_menu">
+                  <a href="#" class="navbar_item_menuLink">امکانات</a>
+                </li>
+                <li class="navbar_item_menu">
+                  <a href="#" class="navbar_item_menuLink">قیمت گذاری</a>
+                </li>
+                <li class="navbar_item_menu">
+                  <a href="#" class="navbar_item_menuLink">درباره ما</a>
+                </li>
+                <li class="navbar_item_menu">
+                  <a href="#" class="navbar_item_menuLink">تماس با ما</a>
+                </li>
+              </ul>
+            </div>
+            <div class="navbar_left">
+              <a href="#" class="navbar_link_contact button_br_blue"
+                >تماس با ما</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="navbarRes d-lg-none d-block">
+        <div class="container">
+          <div class="navbarRes_wrapper">
+            <div class="navbarRes_right">
+              <a href="#" class="navbarRes_logo_link">
+                <img
+                  src="/assets/svg/logo.svg"
+                  alt="logo image"
+                  class="navbarRes_logo_img"
+                />
+                <img
+                  src="/assets/svg/logoText.svg"
+                  alt="logo text"
+                  class="navbarRes_logo_img"
+                />
+              </a>
+            </div>
+            <div class="navbarRes_left">
+              <span class="navbarRes_icon">
+                <i class="fa fa-bars"></i>
+              </span>
+            </div>
+            <ul class="navbarRes_items_menu">
+              <li class="navbarRes_item_menu">
+                <a href="#" class="navbarRes_item_menuLink">خانه</a>
+              </li>
+              <li class="navbarRes_item_menu">
+                <a href="#" class="navbarRes_item_menuLink">امکانات</a>
+              </li>
+              <li class="navbarRes_item_menu">
+                <a href="#" class="navbarRes_item_menuLink">قیمت گذاری</a>
+              </li>
+              <li class="navbarRes_item_menu">
+                <a href="#" class="navbarRes_item_menuLink">درباره ما</a>
+              </li>
+              <li class="navbarRes_item_menu">
+                <a href="#" class="navbarRes_item_menuLink">تماس با ما</a>
+              </li>
+              <li class="navbarRes_item_menu">
+                <a href="#" class="navbarRes_contact_link button_br_blue"
+                  >تماس با ما</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </nav>
+    <!-- <<<<<<<< Section Navbar >>>>>>>> -->
+
+    <!-- <<<<<<<< Section Main >>>>>>>> -->
+
+    <!-- <<<< Introduction Section >>>> -->
+    <section class="intro">
+      <div class="containers">
+        <div class="row">
+          <div class="col-lg-8 col-md-6 col-sm-12">
+            <div class="intro_content">
+              <h1 class="intro_content_title">
+                <span>آی لندینگ</span>
+                ، لندینگ پیجی برای جذب افراد جدید!
+              </h1>
+              <p class="intro_content_desc">
+                آی لندینگ یک قالب HTML لندینگ پیج هستش که هدفش جذب کاربرانی که
+                برای اولین بار با شما آشنا میشن. یک لندینگ پیج خوب نرخ تبدیل
+                کلیک به پول شما رو زیاد میکنه!
+              </p>
+
+              <a href="#" class="intro_content_contact button_br_blue"
+                >تماس با ما</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 d-none d-md-block">
+            <img
+              src="/assets/image/intro.png"
+              alt="image intro"
+              class="intro_img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <<<< Introduction Section >>>> -->
+
+    <!-- <<<< Trusted Section >>>> -->
+    <section class="trust">
+      <div class="containers">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="trust_title">
+              « شرکت هایی که به آی لندینگ اعتماد کردند »
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="trust_wrapper">
+              <img
+                src="/assets/image/trust-1.png"
+                alt="trust image"
+                class="trust_img"
+              />
+              <img
+                src="/assets/image/trust-2.png"
+                alt="trust image"
+                class="trust_img"
+              />
+              <img
+                src="/assets/image/trust-3.png"
+                alt="trust image"
+                class="trust_img"
+              />
+              <img
+                src="/assets/image/trust-4.png"
+                alt="trust image"
+                class="trust_img"
+              />
+              <img
+                src="/assets/image/trust-5.png"
+                alt="trust image"
+                class="trust_img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <<<< Trusted Section >>>> -->
+
+    <!-- <<<< Product Features>>>> -->
+    <section class="productFeatures">
+      <div class="containers">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="title_right">
+              <span class="title_right_text">طراحی Mobile-first</span>
+              <h4 class="title_right_title">ریسپانسیو برای تمامی دستگاه ها</h4>
+              <p class="title_right_desc">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است.لورم ایپسوم متن ساختگی با تولید
+                سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+              </p>
+            </div>
+            <a href="#" class="productFeatures_link button_bg_green">
+              بیشتر بدانید
+            </a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <span class="productFeatures_logo">
+              <svg
+                id="SvgjsSvg1001"
+                width="400"
+                height="200"
+                xmlns="http://www.w3.org/2000/svg"
+                version="1.1"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:svgjs="http://svgjs.com/svgjs"
+              >
+                <defs id="SvgjsDefs1002"></defs>
+                <g id="SvgjsG1008">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:svgjs="http://svgjs.com/svgjs"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 288 288"
+                    width="288"
+                    height="288"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 874 1046"
+                      width="288"
+                      height="288"
+                    >
+                      <path
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M570.973 670.605C570.973 670.605 505.393 663.385 456.083 664.865L468.783 529.985L445.714 533.695L435.684 472.815L528.444 468.705C528.444 468.705 534.294 473.735 552.374 472.155C585.554 481.855 625.924 540.355 625.924 540.355L571.094 561.755L564.573 548.545L570.973 670.605Z"
+                        class="colorStroke000 svgStroke"
+                      ></path>
+                      <path
+                        fill="#1e293b"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M591.823 728.245L405.483 840.235 470.793 938.875C470.793 938.875 770.363 807.815 739.603 728.245 708.843 648.675 216.803 636.395 190.623 735.605 177.923 783.745 390.633 849.095 390.633 849.095L591.823 728.245zM496.873 443.975C491.103 425.675 526.083 379.785 554.543 383.795 581.213 387.555 580.673 401.925 585.883 410.875 588.783 415.845 597.163 420.655 598.423 430.185 599.573 438.885 593.323 443.555 594.163 450.745 594.993 457.875 601.823 469.735 592.403 475.065 585.463 478.995 585.303 465.065 570.743 462.955 560.143 461.415 545.773 460.555 529.713 455.755 514.143 451.105 501.443 458.475 496.873 443.975z"
+                        class="color000 svgShape colorStroke000 svgStroke color1e293b"
+                      ></path>
+                      <path
+                        fill="#f3f4f6"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M313.114 367.725C313.114 367.725 303.294 312.665 289.914 316.675C276.544 320.685 294.594 369.505 294.594 369.505C294.594 369.505 256.754 390.505 258.864 400.005C260.934 409.355 338.394 532.995 359.954 537.505C381.514 542.015 445.714 533.695 445.714 533.695L435.684 472.815C435.684 472.815 388.314 475.235 374.414 468.705C324.674 445.325 339.074 339.735 327.684 338.085C314.934 336.225 313.114 367.725 313.114 367.725Z"
+                        class="colorfff svgShape colorStroke000 svgStroke color4ade80"
+                      ></path>
+                      <path
+                        fill="#f3f4f6"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M299.134 406.665L310.714 400.645C310.714 400.645 298.714 363.065 286.494 368.745C277.294 373.025 299.134 406.665 299.134 406.665Z"
+                        class="colorfff svgShape colorStroke000 svgStroke color4ade80"
+                      ></path>
+                      <path
+                        fill="#f3f4f6"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M284.683 414.505L296.693 408.115C296.693 408.115 283.593 369.745 273.443 375.015C262.383 380.765 284.683 414.505 284.683 414.505Z"
+                        class="colorfff svgShape colorStroke000 svgStroke color4ade80"
+                      ></path>
+                      <path
+                        fill="#f3f4f6"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M270.854 422.965L281.884 415.605C281.884 415.605 268.784 377.235 258.644 382.505C247.574 388.255 270.854 422.965 270.854 422.965Z"
+                        class="colorfff svgShape colorStroke000 svgStroke color4ade80"
+                      ></path>
+                      <path
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M304.883 404.025C304.883 404.025 312.323 416.315 321.343 417.985"
+                        class="colorStroke000 svgStroke"
+                      ></path>
+                      <path
+                        fill="#f3f4f6"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M625.924 540.345C625.924 540.345 670.294 603.475 667.294 620.975 664.444 637.615 550.714 695.765 550.714 695.765L547.514 637.805 594.154 612.225 571.084 561.745 625.924 540.345zM528.444 468.695L536.344 448.985C536.344 448.985 520.144 437.195 528.444 420.145 536.234 415.135 542.504 420.395 544.264 422.405 546.024 424.415 551.534 433.685 556.304 433.685 561.064 433.685 575.614 432.935 575.364 439.205 575.114 445.475 570.854 447.225 566.334 444.725 561.574 448.985 555.804 451.995 552.294 449.995 551.544 456.765 552.374 472.145 552.374 472.145 552.374 472.145 534.794 473.975 528.444 468.695z"
+                        class="colorfff svgShape colorStroke000 svgStroke color4ade80"
+                      ></path>
+                      <path
+                        fill="#767fad"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M699.484 278.725L722.054 268.695C722.054 268.695 715.534 295.275 725.564 302.795C734.954 309.835 762.425 300.035 771.205 310.815C778.735 320.065 773.715 362.975 773.715 362.975L757.665 371.505C757.665 371.505 762.915 336.155 753.655 328.375C741.115 317.845 720.574 330.595 712.034 324.865C699.484 316.465 699.484 278.725 699.484 278.725Z"
+                        class="colorA7A5A5 svgShape colorStroke000 svgStroke colorff8066"
+                      ></path>
+                      <path
+                        fill="#37f969"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M540.824 715.915L314.674 732.145C308.094 732.615 302.314 727.615 301.844 721.035L292.224 586.905C291.754 580.325 296.754 574.545 303.334 574.075L529.484 557.845C536.064 557.375 541.844 562.375 542.314 568.955L551.934 703.085C552.404 709.665 547.404 715.445 540.824 715.915Z"
+                        class="colorDADADA svgShape colorStroke000 svgStroke color767fad"
+                      ></path>
+                      <path
+                        fill="#f3f4f6"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M420.814 679.765C433.461 679.765 443.714 669.512 443.714 656.865C443.714 644.218 433.461 633.965 420.814 633.965C408.167 633.965 397.914 644.218 397.914 656.865C397.914 669.512 408.167 679.765 420.814 679.765Z"
+                        class="colorfff svgShape colorStroke000 svgStroke color4ade80"
+                      ></path>
+                      <path
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M79.623 914.135V178.725C79.623 107.675 137.753 49.5349 208.813 49.5349H742.883C813.933 49.5349 872.073 107.665 872.073 178.725V914.135"
+                        class="colorStroke000 svgStroke"
+                      ></path>
+                      <path
+                        fill="#f3f4f6"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M139.554 28.7249C146.894 28.7249 152.844 22.7749 152.844 15.4351C152.844 8.09519 146.894 2.14502 139.554 2.14502C132.214 2.14502 126.264 8.09519 126.264 15.4351C126.264 22.7749 132.214 28.7249 139.554 28.7249Z"
+                        class="colorfff svgShape colorStroke000 svgStroke color4ade80"
+                      ></path>
+                      <path
+                        fill="#37f969"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M198.653 28.7249C205.993 28.7249 211.943 22.7749 211.943 15.4351C211.943 8.09519 205.993 2.14502 198.653 2.14502C191.313 2.14502 185.363 8.09519 185.363 15.4351C185.363 22.7749 191.313 28.7249 198.653 28.7249Z"
+                        class="colorDADADA svgShape colorStroke000 svgStroke color767fad"
+                      ></path>
+                      <path
+                        fill="#767fad"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M258.134 28.7249C265.474 28.7249 271.424 22.7749 271.424 15.4351C271.424 8.09519 265.474 2.14502 258.134 2.14502C250.794 2.14502 244.844 8.09519 244.844 15.4351C244.844 22.7749 250.794 28.7249 258.134 28.7249Z"
+                        class="colorA7A5A5 svgShape colorStroke000 svgStroke colorff8066"
+                      ></path>
+                      <path
+                        stroke="#fff"
+                        stroke-miterlimit="10"
+                        d="M391.033 726.665L459.423 762.345"
+                        class="colorStrokefff svgStroke"
+                      ></path>
+                      <path
+                        fill="#1e293b"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M611.274 866.655L641.974 890.055L554.604 949.445L508.514 921.335C508.514 921.335 592.624 879.155 611.274 866.655Z"
+                        class="color000 svgShape colorStroke000 svgStroke color1e293b"
+                      ></path>
+                      <path
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M641.974 890.065L670.394 910.805L575.244 976.985L538.414 960.445L641.974 890.065Z"
+                        class="colorStroke000 svgStroke"
+                      ></path>
+                      <path
+                        fill="#f3f4f6"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M662.004 916.645L688.115 938.875L588.484 1043.85L606.584 983.675L592.824 964.755L662.004 916.645Z"
+                        class="colorfff svgShape colorStroke000 svgStroke color4ade80"
+                      ></path>
+                      <path
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M405.483 840.235L354.793 870.425L422.073 961.275L477.963 949.505L405.483 840.235Z"
+                        class="colorStroke000 svgStroke"
+                      ></path>
+                      <path
+                        fill="#f3f4f6"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M362.464 880.775L321.344 907.785L383.534 1030.48L390.554 955.625L407.734 941.905L362.464 880.775Z"
+                        class="colorfff svgShape colorStroke000 svgStroke color4ade80"
+                      ></path>
+                      <path
+                        stroke="#fff"
+                        stroke-miterlimit="10"
+                        d="M475.844 905.565C475.844 905.565 679.714 801.975 679.714 777.475"
+                        class="colorStrokefff svgStroke"
+                      ></path>
+                      <path
+                        fill="#f3f4f6"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                        d="M55.7438 587.685C85.4677 587.685 109.564 563.589 109.564 533.865C109.564 504.141 85.4677 480.045 55.7438 480.045C26.0198 480.045 1.92383 504.141 1.92383 533.865C1.92383 563.589 26.0198 587.685 55.7438 587.685Z"
+                        class="colorfff svgShape colorStroke000 svgStroke color4ade80"
+                      ></path>
+                    </svg>
+                  </svg>
+                </g>
+              </svg>
+            </span>
+          </div>
+        </div>
+      <div class="row mt-5 ">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <span class="productFeatures_logo">
+             <svg id="SvgjsSvg1035" width="500" height="200" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1036"></defs><g id="SvgjsG1037"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 984 960" width="288" height="288"><path fill="#f3f4f6" stroke="#000000" stroke-miterlimit="10" stroke-width="3" d="M981.917 115.758L641.047 116.244L641.401 364.994L982.271 364.508L981.917 115.758Z" class="colorfff svgShape colorStroke000 svgStroke"></path><path fill="#0166fd" d="M72.5977 322.5C74.7177 278.75 124.987 167.25 242.217 207.25C405.257 262.88 222.747 702.27 420.217 726C613.717 749.25 638.467 577.5 655.337 501.38H696.377C697.337 578.25 663.957 798.75 421.717 778.5C161.407 756.74 351.028 306.88 225.598 255C175.208 234.16 124.988 269.33 119.578 324.24" class="colorDADADA svgShape"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M72.5977 322.5C74.7177 278.75 124.987 167.25 242.217 207.25C405.257 262.88 222.747 702.27 420.217 726C613.717 749.25 638.467 577.5 655.337 501.38H696.377C697.337 578.25 663.957 798.75 421.717 778.5C161.407 756.74 351.028 306.88 225.598 255C175.208 234.16 124.988 269.33 119.578 324.24" class="colorStroke000 svgStroke"></path><path fill="#1e293b" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M413.289 261.09C419.729 261 435.979 268.03 443.949 261.65C451.919 255.27 446.579 246.27 447.229 237.93C448.409 222.74 436.369 196.86 415.369 196.86C390.599 196.86 388.388 215.99 380.738 215.99C370.968 215.99 347.849 249.55 364.599 262.11C375.119 270 378.759 253.39 386.479 260.23C394.719 267.56 406.579 261.19 413.289 261.09Z" class="color000 svgShape colorStroke000 svgStroke"></path><path fill="#f3f4f6" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M832.848 297.01C856.563 297.01 875.788 277.785 875.788 254.07 875.788 230.355 856.563 211.13 832.848 211.13 809.133 211.13 789.908 230.355 789.908 254.07 789.908 277.785 809.133 297.01 832.848 297.01zM357.969 435.75L469.719 440.25 463.339 331.13 485.459 344.01 511.459 301.26C511.459 301.26 457.709 267.57 414.769 267.57 414.769 267.57 407.079 271.51 401.079 267.57 373.519 272.45 354.959 285.19 312.199 328.32 338.819 357.01 351.009 369.57 351.009 369.57L362.819 358.13 357.969 435.75z" class="colorfff svgShape colorStroke000 svgStroke"></path><path fill="#f3f4f6" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M312.217 328.31L290.467 352.12L183.587 282.75C183.587 282.75 173.837 264 168.587 264.94C163.337 265.88 168.587 282.38 168.587 282.38C168.587 282.38 129.967 265.69 126.967 273C124.367 279.34 153.587 286.5 153.587 286.5C153.587 286.5 117.397 274.78 115.547 283.36C113.817 291.4 152.457 297.75 152.457 297.75C152.457 297.75 110.528 290.09 109.428 298.41C108.208 307.6 145.707 304.5 145.707 304.5C145.707 304.5 117.117 311.16 118.047 318.84C118.787 324.92 146.077 316.12 159.207 323.62C172.337 331.12 293.827 423.37 293.827 423.37L351.017 369.56L312.217 328.31Z" class="colorfff svgShape colorStroke000 svgStroke"></path><path fill="#1e293b" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M357.968 435.75L236.849 594.75L124.988 679.21L196.068 762.21L315.218 677.25L371.218 598.75L373.718 644.25L315.528 813.55L426.668 826.88L495.218 656.25L469.718 440.25L357.968 435.75Z" class="color000 svgShape colorStroke000 svgStroke"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M415.719 541.75L371.219 598.75M121.538 675.18L87.4082 698.81 154.348 795.75 208.728 777 121.538 675.18z" class="colorStroke000 svgStroke"></path><path fill="#f3f4f6" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M91.7285 705.05L43.2285 742.25L119.729 863.25L139.729 800.25L152.168 792.59L91.7285 705.05Z" class="colorfff svgShape colorStroke000 svgStroke"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M308.789 812.74L435.968 828L415.718 880.5L300.979 840L308.789 812.74Z" class="colorStroke000 svgStroke"></path><path fill="#f3f4f6" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M305.929 841.75L406.409 877.21L396.218 905.75L444.718 958.25L282.229 905.25L305.929 841.75Z" class="colorfff svgShape colorStroke000 svgStroke"></path><path fill="#0166fd" d="M119.578 324.23C111.048 394.45 184.728 472.59 351.028 529.49C570.218 604.49 594.968 772.49 645.218 905.24C647.828 912.13 600.328 923.04 598.718 918.74C524.468 720.74 476.468 631.31 340.078 580.87C85.7682 486.82 65.968 364.99 72.588 322.49" class="colorDADADA svgShape"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M119.578 324.23C111.048 394.45 184.728 472.59 351.028 529.49C570.218 604.49 594.968 772.49 645.218 905.24C647.828 912.13 600.328 923.04 598.718 918.74C524.468 720.74 476.468 631.31 340.078 580.87C85.7682 486.82 65.968 364.99 72.588 322.49" class="colorStroke000 svgStroke"></path><path fill="#f3f4f6" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M655.348 501.37L676.998 436.66L696.388 501.37H655.348Z" class="colorfff svgShape colorStroke000 svgStroke"></path><path fill="#1e293b" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M669.338 459.18L673.218 461L676.968 457.5L679.468 461L683.688 458.99L676.998 436.66L669.338 459.18Z" class="color000 svgShape colorStroke000 svgStroke"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M743.219 616.25C743.219 616.25 759.719 700.78 834.219 655.01 908.719 609.25 937.219 668.6 937.219 668.6M726.758 570.25L771.218 368.75M846.219 361.5L897.219 570.25" class="colorStroke000 svgStroke"></path><path fill="#767fad" d="M829.048 269.82L930.238 196.05L982.088 236.17L982.269 364.51L641.398 364.99L641.229 245.6L727.378 179.11L876.708 312.35" class="colorA7A5A5 svgShape"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M829.048 269.82L930.238 196.05 982.088 236.17 982.269 364.51 641.398 364.99 641.229 245.6 727.378 179.11 876.708 312.35M785.949 204.39L774.729 189.82M814.938 192.75L810.309 174.95M844.908 193.08L850.138 175.45M873.209 205.01L885.759 191.56" class="colorStroke000 svgStroke"></path><path fill="#0166fd" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M21.9785 96.2501C33.1623 96.2501 42.2285 87.1839 42.2285 76.0001C42.2285 64.8164 33.1623 55.7501 21.9785 55.7501C10.7947 55.7501 1.72852 64.8164 1.72852 76.0001C1.72852 87.1839 10.7947 96.2501 21.9785 96.2501Z" class="colorDADADA svgShape colorStroke000 svgStroke"></path><path fill="#f3f4f6" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M94.4688 19.2501C99.3012 19.2501 103.219 15.3326 103.219 10.5001C103.219 5.66763 99.3012 1.75012 94.4688 1.75012C89.6363 1.75012 85.7188 5.66763 85.7188 10.5001C85.7188 15.3326 89.6363 19.2501 94.4688 19.2501Z" class="colorfff svgShape colorStroke000 svgStroke"></path><path fill="#767fad" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M179.229 147.75C210.709 147.75 236.229 122.23 236.229 90.7501C236.229 59.2699 210.709 33.7501 179.229 33.7501C147.748 33.7501 122.229 59.2699 122.229 90.7501C122.229 122.23 147.748 147.75 179.229 147.75Z" class="colorA7A5A5 svgShape colorStroke000 svgStroke"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M224.108 54.76C240.758 53.01 252.718 55.5601 255.878 62.8001 262.008 76.8501 232.658 103.21 190.318 121.68 147.978 140.15 108.689 143.74 102.559 129.7 99.0886 121.74 106.998 109.83 122.218 97.64M69.9795 492C69.9795 492 95.0995 544.12 187.77 576.06 165.77 591.56 155.979 598.5 155.979 598.5L129.979 595.5 123.979 617.62 22.3594 689.62M292.728 29.2501C292.728 29.2501 319.728 105.75 259.168 186 285.258 194.62 301.728 210.75 301.728 210.75M654.219 809.75C654.219 809.75 655.639 849.7 666.219 854.25 678.199 859.41 716.719 827.01 682.339 903.88 676.889 916.08 761.959 876.5 761.959 876.5" class="colorStroke000 svgStroke"></path><path fill="#f3f4f6" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M401.098 252.37C403.098 255.6 401.098 267.56 401.098 267.56 401.098 267.56 404.688 269.55 407.378 269.3 410.068 269.05 412.718 267.56 412.718 267.56V252C412.718 252 432.128 242.72 425.048 233.77 419.418 226.65 404.838 237.75 401.468 238.88 398.098 240.01 392.558 236.15 390.718 239.94 388.538 244.43 398.968 248.93 401.098 252.37zM637.219 713.01C653.235 713.01 666.219 700.026 666.219 684.01 666.219 667.994 653.235 655.01 637.219 655.01 621.202 655.01 608.219 667.994 608.219 684.01 608.219 700.026 621.202 713.01 637.219 713.01zM511.469 301.25L566.279 337.87C566.279 337.87 648.399 289.68 652.529 284.43 656.659 279.18 662.279 264.74 666.969 264.93 671.659 265.12 666.969 284.05 666.969 284.05 666.969 284.05 705.589 271.3 710.089 279.55 702.029 281.99 681.969 288.36 681.969 288.36 681.969 288.36 716.089 277.86 720.409 284.05 724.729 290.24 682.529 298.67 682.529 298.67 682.529 298.67 722.089 286.86 725.839 295.48 729.589 304.1 689.459 306.17 689.459 306.17 689.459 306.17 723.209 304.48 722.649 309.36 722.089 314.24 663.769 314.05 569.839 394.67 552.589 384.36 485.469 343.98 485.469 343.98L511.469 301.25z" class="colorfff svgShape colorStroke000 svgStroke"></path></svg></g></svg>
+            </span>
+          </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="title_right">
+                  <span class="title_right_text">آناتومیِ استاندارد</span>
+                  <h4 class="title_right_title">طراحی و توسعه با رعایت اصول جهانی</h4>
+                  <p class="title_right_desc">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                    استفاده از طراحان گرافیک است.لورم ایپسوم متن ساختگی با تولید
+                    سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                  </p>
                 </div>
-            </section>
-
-            <section class="navbarRes d-lg-none d-block">
-                <div class="container">
-                    <div class="navbarRes_wrapper">
-                        <div class="navbarRes_right">
-                            <a href="#" class="navbarRes_logo_link">
-                                <img src="/assets/svg/logo.svg" alt="logo image" class="navbarRes_logo_img">
-                                <img src="/assets/svg/logoText.svg" alt="logo text" class="navbarRes_logo_img">
-                            </a>
-                        </div>
-                        <div class="navbarRes_left">
-                            <span class="navbarRes_icon">
-                                <i class="fa fa-bars"></i>
-                            </span>
-                        </div>
-                        <ul class="navbarRes_items_menu">
-                            <li class="navbarRes_item_menu">
-                                <a href="#" class="navbarRes_item_menuLink">خانه</a>
-                            </li>
-                            <li class="navbarRes_item_menu">
-                                <a href="#" class="navbarRes_item_menuLink">امکانات</a>
-                            </li>
-                            <li class="navbarRes_item_menu">
-                                <a href="#" class="navbarRes_item_menuLink">قیمت گذاری</a>
-                            </li>
-                            <li class="navbarRes_item_menu">
-                                <a href="#" class="navbarRes_item_menuLink">درباره ما</a>
-                            </li>
-                            <li class="navbarRes_item_menu">
-                                <a href="#" class="navbarRes_item_menuLink">تماس با ما</a>
-                            </li>
-                            <li class="navbarRes_item_menu">
-                                <a href="#" class="navbarRes_contact_link button_br_blue">تماس با ما</a>
-                            </li>
-                        </ul>
-                    </div>
+                <a href="#" class="productFeatures_link button_bg_blue">
+                  بیشتر بدانید
+                </a>
+              </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="title_right">
+                  <span class="title_right_text">رشد کسب و کار</span>
+                  <h4 class="title_right_title">تبدیل بازدید کننده ساده به مشتری!</h4>
+                  <p class="title_right_desc">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                    استفاده از طراحان گرافیک است.لورم ایپسوم متن ساختگی با تولید
+                    سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                  </p>
                 </div>
-            </section>
-        </nav>
-        <!-- <<<<<<<< Section Navbar >>>>>>>> -->
+                <a href="#" class="productFeatures_link button_bg_green">
+                  بیشتر بدانید
+                </a>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <span class="productFeatures_logo">
+                    <svg id="SvgjsSvg1001" width="500" height="200" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1002"></defs><g id="SvgjsG1008"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 690 792" width="288" height="288"><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M290.943 314.57C290.943 314.57 338.154 265.39 338.994 268.74C340.614 275.24 343.874 286.42 343.874 286.42L395.994 267.13C395.994 267.13 377.874 179.11 368.494 168.8" class="colorStroke000 svgStroke"></path><path fill="#f3f4f6" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M542.394 350.22C543.314 340.03 509.584 345.85 509.584 345.85C509.584 345.85 541.034 365.33 542.394 350.22Z" class="colorfff svgShape colorStroke000 svgStroke"></path><path fill="#f3f4f6" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M396.003 267.12L405.143 309.29C405.143 309.29 517.123 344.17 527.623 353.54C538.123 362.92 557.383 375.77 552.183 382.59C548.833 386.98 512.253 359.54 512.253 359.54C512.253 359.54 550.243 385.41 544.873 392.92C539.833 399.98 508.873 370.8 508.873 370.8C508.873 370.8 539.333 397.11 534.373 403.24C529.623 409.12 504.373 380.93 504.373 380.93C504.373 380.93 515.993 395.18 513.753 398.93C511.513 402.68 485.253 376.05 478.503 372.68C471.753 369.31 357.663 337.81 357.663 337.81L343.883 286.44L396.003 267.12Z" class="colorfff svgShape colorStroke000 svgStroke"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M332.254 240.29L338.994 268.74" class="colorStroke000 svgStroke"></path><path fill="#1e293b" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M321.003 455.24L340.483 586.37L240.883 656.56L169.863 601.53L225.363 555.36C225.363 555.36 164.713 442.82 167.713 381.82C222.683 422.68 321.003 455.24 321.003 455.24Z" class="color000 svgShape colorStroke000 svgStroke"></path><path stroke="#ffffff" stroke-miterlimit="10" d="M261.504 443.29L286.705 571.1L205.234 627.96" class="colorStrokefff svgStroke"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M164.324 597.29L257.264 669.29L210.794 690.79L122.754 636.29L164.324 597.29Z" class="colorStroke000 svgStroke"></path><path fill="#f3f4f6" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M129.964 640.75L94.6836 670.41L190.003 744.35L188.503 698.54L203.954 686.56L129.964 640.75Z" class="colorfff svgShape colorStroke000 svgStroke"></path><path fill="#1e293b" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M167.715 381.83C237.205 435.83 406.505 482.54 406.505 482.54L441.935 667.25L533.255 644.49L522.755 451.79C501.005 424.04 317.055 312.98 248.565 300.98L167.715 381.83Z" class="color000 svgShape colorStroke000 svgStroke"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M2.25391 730.04C2.25391 730.04 15.334 745.85 21.564 745.79C176.954 744.35 517.524 742.35 673.124 740.04C678.274 739.96 687.744 725.54 687.744 725.54" class="colorStroke000 svgStroke"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M207.504 789.83C220.063 789.83 230.244 779.649 230.244 767.09 230.244 754.531 220.063 744.35 207.504 744.35 194.945 744.35 184.764 754.531 184.764 767.09 184.764 779.649 194.945 789.83 207.504 789.83zM562.895 787.83C575.453 787.83 585.634 777.649 585.634 765.09 585.634 752.531 575.453 742.35 562.895 742.35 550.336 742.35 540.154 752.531 540.154 765.09 540.154 777.649 550.336 787.83 562.895 787.83zM431.754 669.79L548.254 640.75 545.754 683.29 440.754 700.29 431.754 669.79z" class="colorStroke000 svgStroke"></path><path fill="#f3f4f6" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M534.435 685.12V702.04L588.005 741.1 454.755 741.97 447.035 699.27 534.435 685.12zM386.904 157.04C395.967 157.04 403.314 148.56 403.314 138.1 403.314 127.64 395.967 119.16 386.904 119.16 377.841 119.16 370.494 127.64 370.494 138.1 370.494 148.56 377.841 157.04 386.904 157.04z" class="colorfff svgShape colorStroke000 svgStroke"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M233.924 233.05C233.924 233.05 308.964 187.04 384.004 194.92M241.814 240.93C241.814 240.93 302.414 193.71 385.504 204.79M270.504 279.04C270.504 279.04 308.964 282.79 333.504 276.54M261.504 288.04C261.504 288.04 300.444 292.48 328.254 284.54" class="colorStroke000 svgStroke"></path><path fill="#767fad" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M224.551 177.55L183.246 149.375L146.337 203.485L187.642 231.66L224.551 177.55Z" class="colorA7A5A5 svgShape colorStroke000 svgStroke"></path><path fill="#1e293b" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M240.344 188.314L224.549 177.54L187.64 231.649L203.435 242.424L240.344 188.314Z" class="color000 svgShape colorStroke000 svgStroke"></path><path fill="#f3f4f6" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M202.164 175.854L176.918 158.633L146.331 203.474L171.577 220.694L202.164 175.854Z" class="colorfff svgShape colorStroke000 svgStroke"></path><path fill="#1e293b" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M368.503 168.79C373.283 167.44 370.503 163.66 377.123 152.67C383.873 141.46 411.023 132.48 411.003 124.29C410.953 106.38 370.153 78.2901 329.753 103.29C324.003 106.85 306.484 105.94 304.784 113.63C302.064 125.91 312.074 121.56 315.284 130.22C320.124 143.28 334.123 149.53 341.753 153.03C350.553 157.08 353.113 173.13 368.503 168.79Z" class="color000 svgShape colorStroke000 svgStroke"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M195.374 61.79H128.254V116.16H195.374V61.79Z" class="colorStroke000 svgStroke"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M128.254 61.79L162.004 86.04L195.374 61.79H128.254Z" class="colorStroke000 svgStroke"></path><path fill="#767fad" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M79.5039 29.54H2.25391V96.29H79.5039V29.54Z" class="colorA7A5A5 svgShape colorStroke000 svgStroke"></path><path fill="#f3f4f6" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M40.874 41.92H2.25391V64.98H40.874V41.92Z" class="colorfff svgShape colorStroke000 svgStroke"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M3.125 76.42H28.125M3.125 84.29H16.7549" class="colorStroke000 svgStroke"></path><path fill="#1e293b" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M79.5039 29.54H57.2539V95.29H79.5039V29.54Z" class="color000 svgShape colorStroke000 svgStroke"></path><path fill="#767fad" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M618.696 241.479L538.945 189.357L493.908 258.267L573.659 310.389L618.696 241.479Z" class="colorA7A5A5 svgShape colorStroke000 svgStroke"></path><path fill="#f3f4f6" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M570.475 228.202L530.596 202.139L515.036 225.946L554.915 252.009L570.475 228.202Z" class="colorfff svgShape colorStroke000 svgStroke"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M507.354 237.55L534.063 255.01M502.043 245.68L517.013 255.47" class="colorStroke000 svgStroke"></path><path fill="#1e293b" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M595.963 226.315L550.926 295.225L573.896 310.237L618.933 241.327L595.963 226.315Z" class="color000 svgShape colorStroke000 svgStroke"></path><path fill="#37f969" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M275.192 274.295L149.215 148.318L30.1392 267.394L156.116 393.371L275.192 274.295Z" class="colorDADADA svgShape colorStroke000 svgStroke"></path><path fill="#37f969" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M275.194 274.293L236.799 235.897L117.723 354.973L156.119 393.368L275.194 274.293Z" class="color565656 svgShape colorStroke000 svgStroke"></path><path fill="#37f969" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M179.194 244.61L91.834 157.46L149.234 148.35L236.814 235.94L179.194 244.61Z" class="colorDADADA svgShape colorStroke000 svgStroke"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M91.5137 103.79C91.5137 103.79 112.504 117.66 117.374 126.29M171.005 131.18C171.005 131.18 167.555 143.6 166.885 148.35M260.625 58.04C260.625 58.04 228.245 87.43 222.375 98.54" class="colorStroke000 svgStroke"></path><path fill="#37f969" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M314.183 157.931L271.363 91.1761L216.131 126.604L258.95 193.36L314.183 157.931Z" class="colorDADADA svgShape colorStroke000 svgStroke"></path><path fill="#f3f4f6" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M296.239 151.657L270.842 112.063L249.538 125.728L274.935 165.322L296.239 151.657Z" class="colorfff svgShape colorStroke000 svgStroke"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M240.234 131.75L251.134 148.75M233.924 135.8L242.594 149.33M325.314 18.2901C325.314 18.2901 298.874 3.10005 288.934 13.0401 278.994 22.9801 320.524 43.88 312.184 52.23 303.844 60.57 268.824 35.1701 265.004 25.0401M319.505 2.17004L276.375 45.29M327.564 6.09998L280.314 53.3499" class="colorStroke000 svgStroke"></path><path stroke="#ffffff" stroke-miterlimit="10" d="M343.475 392.63L469.294 469.04L490.004 619.24" class="colorStrokefff svgStroke"></path></svg></g></svg>
+                </span>
+              </div>
+        </div> 
+      </div>
+    </section>
+    <!-- <<<< Product Features>>>> -->
 
-        <!-- <<<<<<<< Section Main >>>>>>>> -->
-
-        <!-- <<<< Introduction Section >>>> -->
-            <section class="intro">
-                <div class="containers">
-                    <div class="row">
-                        <div class="col-lg-8 col-md-6 col-sm-12">
-                            <div class="intro_content">
-                                <h1 class="intro_content_title">
-                                    <span>آی لندینگ</span>
-                                    ، لندینگ پیجی برای جذب افراد جدید!
-                                </h1>
-                                <p class="intro_content_desc">
-                                    آی لندینگ یک قالب HTML لندینگ پیج هستش که هدفش جذب کاربرانی که برای اولین بار با شما آشنا میشن. یک لندینگ پیج خوب نرخ تبدیل کلیک به پول شما رو زیاد میکنه!
-                                </p>
-
-                                <a href="#" class="intro_content_contact button_br_blue">تماس با ما</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 d-none d-md-block">
-                            <img src="/assets/image/intro.png" alt="image intro" class="intro_img">
-                        </div>
-                    </div>
-                </div>
-            </section>
-        <!-- <<<< Introduction Section >>>> -->
-
-        <!-- <<<< Trusted Section >>>> -->
-            <section class="trust">
-                <div class="containers">
-                    <div class="row">
-                        <div class="col-12">
-                            <h2 class="trust_title">
-                                « شرکت هایی که به آی لندینگ اعتماد کردند »
-                            </h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="trust_wrapper">
-                                <img src="/assets/image/trust-1.png" alt="trust image" class="trust_img">
-                                <img src="/assets/image/trust-2.png" alt="trust image" class="trust_img">
-                                <img src="/assets/image/trust-3.png" alt="trust image" class="trust_img">
-                                <img src="/assets/image/trust-4.png" alt="trust image" class="trust_img">
-                                <img src="/assets/image/trust-5.png" alt="trust image" class="trust_img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        <!-- <<<< Trusted Section >>>> -->
-
-        <!-- <<<<<<<< Section Main >>>>>>>> -->
-        <!-- <<<<<<<<>>>>>>>> -->
+    <!-- <<<<<<<< Section Main >>>>>>>> -->
+    <!-- <<<<<<<<>>>>>>>> -->
     <!-- <<<<<<<< Javascript File >>>>>>>> -->
     <script src="/Bootstrap/bootstrap.bundle.js"></script>
     <script src="/js/app.js" type="module"></script>
-</body>
+  </body>
 </html>

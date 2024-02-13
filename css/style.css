@@ -101,6 +101,26 @@ body{
 }
 /* <<<<<<<< Title-Right  >>>>>>>> */
 
+/* <<<<<<<< Title center  >>>>>>>> */
+.title_center{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.title_center_title{
+    display: block;
+    font-family: var(--font-Black);
+    font-size: 2.3rem;
+    color: var(--color-text-1);
+}
+.title_center_desc{
+    display: block;
+    font-size: 1rem;
+    color: var(--color-text-2);
+}
+/* <<<<<<<< Title center  >>>>>>>> */
+
 /* <<<<<<<< Button background Green  >>>>>>>> */
     .button_bg_green{
         display: flex;

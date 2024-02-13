@@ -235,4 +235,32 @@ color: var(--color-green-1);
     width: 300px;
 }
 /* <<<<<<<< Section Introduction >>>>>>>> */
+
+/* <<<<<<<< Section Trusted >>>>>>>> */
+.trust{
+    display: block;
+    width: 100%;
+    margin-top: 5rem;
+}
+.trust_title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-Black);
+    font-size: 2rem;
+    color: var(--color-text-1);
+}
+.trust_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.trust_img{
+    width: 80px;
+    margin-bottom: 1rem;
+}
+/* <<<<<<<< Section Trusted >>>>>>>> */
+/* <<<<<<<<>>>>>>>> */
 /* <<<<<<<<>>>>>>>> */

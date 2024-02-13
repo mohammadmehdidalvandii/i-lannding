@@ -345,6 +345,11 @@ color: var(--color-green-1);
 /* <<<<<<<< Section Trusted >>>>>>>> */
 
 /* <<<<<<<< Section Product Features >>>>>>>> */
+.features{
+    display: block;
+    width: 100%;
+    margin-top: 5rem;
+}
 .productFeatures{
     display: block;
     width: 100%;

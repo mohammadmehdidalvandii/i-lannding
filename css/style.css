@@ -394,5 +394,71 @@ color: var(--color-green-1);
 }
 
 /* <<<<<<<< Section  Features >>>>>>>> */
+
+/* <<<<<<<< Section Pricing  >>>>>>>> */
+.pricing{
+    display: block;
+    margin-top: 5rem;
+    padding: 3rem;
+    width: 100%;
+    background-color: var(--color-bg);
+}
+.pricing_item{
+    display: block;
+    text-align: center  ;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    padding: 2rem 1rem;
+    border: 1px solid var(--color-purple-1);
+    border-radius: 0.5rem;
+}
+.pricing_item_title{
+    font-family: var(--font-Black);
+    font-size: 1.7rem;
+    color: var(--color-text-1);
+}
+.pricing_item_price{
+    display: block;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: var(--color-text-1);
+}
+.pricing_item_subTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    width: 120px;
+    height: 2rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-text-2);
+    color: var(--color-bg);
+}
+.pricing_item_items{
+    display: block;
+}
+.pricing_item_item{
+    margin-bottom: 1.3rem;
+    color: var(--color-green-2);
+}
+.pricing_item_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 120px;
+    height: 2.5rem;
+    border: 1px solid var(--color-text-2);
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    color: var(--color-text-1);
+    transition: 0.3s ease-in;
+}
+.pricing_item_btn:hover{
+    background-color: var(--color-purple-1);
+    color: var(--color-bg);
+}
+/* <<<<<<<< Section Pricing  >>>>>>>> */
 /* <<<<<<<<>>>>>>>> */
 /* <<<<<<<<>>>>>>>> */

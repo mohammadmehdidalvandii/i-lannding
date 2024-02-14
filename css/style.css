@@ -460,6 +460,7 @@ color: var(--color-green-1);
     color: var(--color-bg);
 }
 /* <<<<<<<< Section Pricing  >>>>>>>> */
+
 /* <<<<<<<< Section Question  >>>>>>>> */
 .question{
     display: block;
@@ -467,5 +468,28 @@ color: var(--color-green-1);
     margin-top: 5rem;
 }
 /* <<<<<<<< Section Question  >>>>>>>> */
+
+/* <<<<<<<< Reward Question  >>>>>>>> */
+.reward{
+    display: block;
+    width: 100%;
+    margin-top: 5rem;
+    padding: 3rem 0;
+    background-color: var(--color-bg);
+}
+.reward_item{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.reward_item_number{
+    font-family: var(--font-Black);
+    font-size: 2rem;
+}
+.reward_item_text{
+    font-size: 0.9rem;
+    color: var(--color-text-1);
+}
+/* <<<<<<<< Reward Question  >>>>>>>> */
 /* <<<<<<<<>>>>>>>> */
 /* <<<<<<<<>>>>>>>> */

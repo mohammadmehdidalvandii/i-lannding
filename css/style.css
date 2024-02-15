@@ -531,5 +531,39 @@ color: var(--color-green-1);
     color: var(--color-text-2);
 }
 /* <<<<<<<< Comments Question  >>>>>>>> */
+
+/* <<<<<<<< About Question  >>>>>>>> */
+.about{
+    display: block;
+    width: 100%;
+    margin-top: 5rem;
+    background-color: var(--color-bg);
+    padding: 3rem 0;
+}
+.about_wrapper{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+.about_content{
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+}
+.about_content_title{
+    font-family: var(--font-Black);
+    font-size: 2rem;
+    color: var(--color-text-1);
+}
+.about_content_desc{
+    display: block;
+    margin-top: 1rem;
+    color: var(--color-text-2);
+}
+.about_img{
+    width: 100%;
+}
+/* <<<<<<<< About Question  >>>>>>>> */
 /* <<<<<<<<>>>>>>>> */
 /* <<<<<<<<>>>>>>>> */

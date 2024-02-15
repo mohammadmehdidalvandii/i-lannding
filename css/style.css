@@ -543,6 +543,7 @@ color: var(--color-green-1);
 .about_wrapper{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     background-color: #fff;
     border-radius: 1rem;
 }
@@ -578,8 +579,97 @@ color: var(--color-green-1);
 }
 .sampleWorkCard_img{
     width: 100%;
+    height: 200px;
     border-radius: 1rem;
 }
 /* <<<<<<<< SampleWork Question  >>>>>>>> */
+
+/* <<<<<<<< Contact Question  >>>>>>>> */
+.contact{
+    display: block;
+    width: 100%;
+    margin-top: 5rem;
+}
+.contact_info{
+    display: block;
+    width: 100%;
+    background-color: var(--color-bg);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.contact_info_title{
+    font-family: var(--font-bold);
+    font-size: 1.2rem;
+    color: var(--color-text-1);
+}
+.contact_info_text{
+    font-size: 0.9rem;
+    color: var(--color-text-2);
+}
+.contact_info_items{
+    display: block;
+    margin-top: 2rem;
+}
+.contact_info_item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.contact_info_itemIcon{
+    margin-left: 0.5rem
+}
+.contact_info_itemText{
+font-size: 1rem;
+color: var(--color-text-2);
+}
+.contact_form{
+    display: block;
+    width: 100%;
+}
+.contact_form_box{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.contact_form_boxText{
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.6rem;
+    color: var(--color-text-2);
+}
+.contact_form_boxInput{
+    outline: none;
+    border: 1px solid var(--color-blue-2);
+    width: 100%;
+    height: 3rem;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    color: var(--color-text-1);
+    padding-right: 0.4rem;
+}
+.contact_form_boxSubJect{
+    outline: none;
+    border: 1px solid var(--color-blue-2);
+    width: 100%;
+    height: 7rem;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    color: var(--color-text-1);
+    padding-right: 0.4rem;
+}
+.contact_form_btn{
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+    outline: none;
+    border: none;
+    background-color: var(--color-blue-1);
+    color: var(--color-bg);
+    transition: 0.3s ease;
+}
+.contact_form_btn:hover{
+    background-color: var(--color-blue-2);
+}
+/* <<<<<<<< Contact Question  >>>>>>>> */
 /* <<<<<<<<>>>>>>>> */
 /* <<<<<<<<>>>>>>>> */

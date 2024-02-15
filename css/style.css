@@ -491,5 +491,45 @@ color: var(--color-green-1);
     color: var(--color-text-1);
 }
 /* <<<<<<<< Reward Question  >>>>>>>> */
+
+/* <<<<<<<< Comments Question  >>>>>>>> */
+.comments{
+    display: block;
+    width: 100%;
+    margin-top: 5rem;
+}
+.comment_card{
+    display: block;
+    border: 2px solid var(--color-blue-3);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+.comment_card_img_info{
+    display: flex;
+    align-items: center;
+}
+.comment_card_img{
+    width: 80px;
+}
+.comment_card_info{
+    display: block;
+    margin-right: 0.5rem;
+}
+.comment_card_infoName{
+    font-family: var(--font-bold);
+    font-size: 1.2rem;
+    color: var(--color-text-1);
+}
+.comment_card_infoJob{
+    color: var(--color-text-2);
+}
+.comment_card_text{
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    color: var(--color-text-2);
+}
+/* <<<<<<<< Comments Question  >>>>>>>> */
 /* <<<<<<<<>>>>>>>> */
 /* <<<<<<<<>>>>>>>> */

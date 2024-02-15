@@ -565,5 +565,21 @@ color: var(--color-green-1);
     width: 100%;
 }
 /* <<<<<<<< About Question  >>>>>>>> */
+
+/* <<<<<<<< SampleWork Question  >>>>>>>> */
+.sampleWork{
+    display: block;
+    width: 100%;
+    margin-top: 5rem;
+}
+.sampleWorkCard{
+ display: block;
+ width: 100%;
+}
+.sampleWorkCard_img{
+    width: 100%;
+    border-radius: 1rem;
+}
+/* <<<<<<<< SampleWork Question  >>>>>>>> */
 /* <<<<<<<<>>>>>>>> */
 /* <<<<<<<<>>>>>>>> */

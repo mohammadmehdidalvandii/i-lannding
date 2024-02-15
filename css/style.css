@@ -358,6 +358,9 @@ color: var(--color-green-1);
 .productFeatures_link{
     margin-top: 1rem;
 }
+.productFeatures_logo svg{
+    width: 100%;
+}
 /* <<<<<<<< Section Product Features >>>>>>>> */
 
 /* <<<<<<<< Section  Features >>>>>>>> */
